@@ -1,0 +1,80 @@
+﻿* + html img {
+  -ms-interpolation-mode: bicubic;
+}
+#scroll-view-box {
+  position: fixed;
+  z-index: 11;
+  padding: 8px;
+  background-color: #555555;
+  display: block;
+  box-sizing: content-box;
+}
+#scroll-view-image {
+  width: 100%;
+  display: block;
+  background-color: white;
+}
+#scroll-view-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+#scroll-view-image-title {
+  text-align: center;
+  padding: 8px;
+  background-color: #555555;
+  color: white;
+}
+/*rgb(85, 85, 85)*/
+#scroll-view-close-button {
+  cursor: pointer;
+  background: #555555;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 40px;
+  width: 35px;
+  height: 35px;
+}
+#scroll-view-close-button span {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  top: -6px;
+  left: 6px;
+}
+#scroll-view-next-button,
+#scroll-view-prev-button {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+}
+#scroll-view-close-button {
+  top: -15px;
+  right: -15px;
+}
+#scroll-view-next-button {
+  top: 50%;
+  right: -35px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid white;
+}
+#scroll-view-prev-button {
+  top: 50%;
+  left: -35px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 25px solid white;
+}
+/*# sourceMappingURL=jquery.ambaImageViewer.css.map */
